@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beauty </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+<style>
+  body{
+  background-color: rgb(243, 229, 229);
+  font-family: "Nanum Gothic", sans-serif;;
+  }
+  h1{
+    font-weight: 800;
+  }
+    .navbar{
+        border-bottom: 1px solid rgb(222, 213, 213);
+        background-color: #fac3c3;
+    }
+    .bck{
+        text-align: center;
+        position: relative;
+        padding: 40px;
+        margin-bottom :50px;
+    }
+    .bck::after{
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: -1;
+        background-position: center;
+        background-size: cover;
+        background-image: url(https://images.pexels.com/photos/7290089/pexels-photo-7290089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        display: block;
+        content: " ";
+        height: 400px;
+        width: 100%;
+        opacity: 0.8;
+        overflow: hidden;
+    }
+    .bton{
+        background-color: palevioletred;
+        color: aliceblue;
+        border: 2px solid white;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        overflow: hidden;
+    } 
+        
+    .bton:hover{
+      color: rgb(173, 71, 134);
+      background-color: #eaebf4d1;
+      border: 2px solid rgb(182, 168, 172);
+    }
+    .bton1 {
+      width:120px;
+      height: 80px;
+      border:  2px solid white;
+      color: white;background-color: palevioletred;
+      border-radius: 8px;
+    }
+    h3{
+      color:palevioletred
+    }
+    a.icon-link{
+      color:palevioletred
+    }
+   
+    .svgg{
+      width: 50px;
+      height: 50px;
+      object-fit: c;
+      border-radius: 50%;}
+      .img2{
+        width: 300px;height: 200px;
+        object-fit: cover;
+        border:2px solid rgb(182, 168, 172);
+        border-radius: 20px;
+        margin-top: 20px;
+        
+      }.img2:hover{
+        transform: scale(1.05);
+      }
+      .cont{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      .logo5{
+        padding: 2px;
+      }
+      .logobtn{
+        padding: 5px ;
+        color: #ede1e1;
+      }
+      a.skin {
+        text-decoration: none;
+        color:rgb(102, 87, 99);
+        font-weight: 600;;
+      }
+     
+     
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./beauty logo.jpg" width="40px" height="40px" style="border-radius: 50%; padding :5px">beauty cosmtic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./hair.html">Hair Product</a></li>
+                  <li><a class="dropdown-item" href="./skincare.html">Skincare Product</a></li>
+                  <li><a class="dropdown-item" href="./makup.html">Makeup Product</a></li>
+                  <li><a class="dropdown-item" href="./perfumes.html">Perfumes Product</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="bck">
+            <h1>Welcome our customers</h1>
+            <p>Because you deserve the best, we have provided you with unbeatable products.</p>
+                <button class="bton">join us</button>
+        </div>
+        <br>
+      </section>
+      <section id="about">
+        <div class="container col-xxl-8 px-4 py-5 my-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./the-honest-company-oqmIM9bkAWQ-unsplash-1024x1024.jpg" class="d-block mx-lg-auto img-fluid "style="border-radius:20px;  1" alt="Bootstrap Themes" width="600" height="400" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3">About beauty cosmtic</h1>
+              <p class="lead">Welcome to [beauty cosmtic], where we believe beauty is more than your outward appearance, it's about confidence and feeling comfortable in your own skin. We're here to help you discover the best version of yourself
+               we strive to be your trusted partner in your journey towards beauty. We aim to provide high-quality products that combine luxury and functionality, while respecting the unique diversity of every woman.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"style="background-color:palevioletred; border-color:white  "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play"  style= "margin:3px;"viewBox="0 0 16 16">
+                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"/>
+                </svg>Google play</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple " style= "margin:3px;" viewBox="0 0 16 16">
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                </svg>App store</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="feature">
+        <div class="container px-4 " id="featured-3">
+          <h3 class="pb-2 border-bottom">Our service</h3>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3 clr">
+                
+                <img class="svgg" src="./png-clipart-consultant-management-consulting-information-technology-consulting-business-gender-symbol-company-text.png">
+              </div>
+              <h4 class="fs-2 ">Personal beauty consultations</h4>
+              <p>
+                We believe that every skin is unique. For this reason, we offer personalized beauty consultations with our beauty experts, to help you choose the perfect products to suit your skin type and personal needs.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3 clr">
+               <img  class="svgg" src="./37f2a0692017dec0d68aa4ab5105ecd3.jpg">
+               
+              </div>
+              <h4 class="fs-2 ">Fast and secure delivery</h4>
+              <p>
+                We know how important it is for you to receive your products on time and in perfect condition. Therefore, we offer a fast and safe delivery service to your door, wherever you are.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3 clr">
+                 <img class="svgg" src="./png-transparent-education-graduation-ceremony-university-student-graduated-text-people-logo-thumbnail.png">
+              </div>
+              <h4 class="fs-2">Educational content and beauty lessons</h4>
+              <p> 
+                Through our blog section, we share beauty tips and tricks, and product tutorials, so you can get the best results every time.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="nn">
+
+       <div class="container ">
+        <h3 class="py-2 border-bottom">Our products</h3>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 " >
+            <img  class="img2"src="./pexels-olly-3764013.jpg" alt="skincare products">
+            <h4 class="my-2">skincare product</h4>
+            <p>“Pamper your skin with our premium care products, designed to give you natural radiance and incomparable beauty. From deep hydration to complete rejuvenation, enjoy soft, healthy and vibrant skin. Because your skin deserves the best!”</p>
+            <button class="bton"><a class="skin " href="./skincare.html">go to skincare</button></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12" >
+            <img  class="img2"src="./pexels-valeriya-965990.jpg" alt="perfumes products">
+            <h4 class="my-2"> perfumes products</h4>
+            <p>"Discover your perfect fragrance with our luxurious collection of fragrances. We created every whiff to captivate the senses and last long, adding an irresistible charm to your presence. Give yourself a touch of luxury with every spray!"</p>
+            <button class="bton"><a a class="skin " href="./perfumes.html"> go to  Perfumes</button></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12" >
+            <img  class="img2"src="./pexels-kinkate-208052.jpg" alt="make up products">
+            <h4 class="my-2">make up product</h4>
+            <p>“Unleash your beauty with a makeup collection that combines charming colors and high quality. Whether you are looking for a natural look or a bold touch, our products give you confidence and radiance to look your best on every occasion. Discover the secret of perfect beauty with every touch!”</p>
+            <button class="bton"><a class="skin" href="./makup.html">go to make up </button></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12" >
+            <img class="img2"src="./pexels-element5-973402.jpg" alt="hair product">
+            <h4 class="my-2"> hair product</h4>
+            <p>"Restore your hair's strength and shine with our natural products specially designed to deeply nourish each strand. Get healthy, soft, and full of vitality from the first use. Give your hair the care it deserves!"</p>
+           <button class="bton"> <a class= "skin" href="./hair.html">go to hair</button></a>
+          </div>
+        </div>
+       </div>
+      </section>
+      <section id="contact">
+        <div class="container my-5 ">
+          <h3 class="border-bottom p-2">Contact us</h3>
+          <div class="row ">
+            <div class="col-lg-6 col-md-6 col-sm-12 my-2">
+              
+              <img  class="cont" src="./92605ff5c79f51b76-1609942943.jpg">
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h5>We are here to help you! If you have any questions or need support, do not hesitate to contact us.</h5>
+<p><strong>Contact form:</strong>  “Your name, email, message.</p>
+<p></p><strong>Contact information:</strong></p>
+<ul>
+  <li>"Email: beautycosmtic@gmail.com" </li>
+  <li>Mobile phone: 123-456-7890"</li>
+</ul>
+<img class="logo5" src="./facebook.svg">
+<img class="logo5" src="./instagram (1).svg">
+<img class="logo5"src="./envelope.svg">
+<img class="logo5" src="./whatsapp.svg">
+
+                 </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+             <img src="./beauty logo.jpg" width="30px" height="30px" style="border-radius: 50%; padding :5px">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 beauty cosmtic</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </section>
+</body>
+
+</html>
